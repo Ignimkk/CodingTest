@@ -1,16 +1,12 @@
 #include <iostream>
 
-int A;
-int B;
+unsigned A;
+double B;
 int main()
 {
     std::cin >> A;
     std::cin >> B;
-    std::cout << A+B << std::endl;
-    std::cout << A-B << std::endl;
-    std::cout << A*B << std::endl;
     std::cout << A/B << std::endl;
-    std::cout << A%B << std::endl;
 
     return 0;
 }
