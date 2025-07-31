@@ -11,6 +11,8 @@ int main()
     {
         array[i] = -1;
     }
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     std::cin >> S;
     S_size = S.size();
@@ -33,3 +35,5 @@ int main()
 
     return 0;
 }
+
+// sync_with_stdio(false)를 사용하면 이 동기화를 끊어 C++ 스트림만 사용하는 조건에서 입출력이 훨씬 빨라집니다.
